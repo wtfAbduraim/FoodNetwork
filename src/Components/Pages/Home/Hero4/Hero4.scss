@@ -1,0 +1,79 @@
+.hero4__title {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: rgba(220, 120, 11, 1);
+}
+
+.hero4__heading {
+  font-family: "Philosopher";
+  font-size: 31.25px;
+  font-weight: 700;
+  //   line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.hero4__text {
+  margin: 0 auto;
+  max-width: 748px;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  //   line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+.hero4__item {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(128, 128, 128, 0.379);
+  background-color: whitesmoke;
+  border-radius: 8px;
+  height: 420px;
+}
+
+.hero4__p {
+  padding: 0 10px;
+}
+
+.hero4__nick {
+  font-family: "Philosopher";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+}
+
+.hero4__prise {
+  font-family: "Philosopher";
+  font-size: 25px;
+  font-weight: 700;
+  //   line-height: 24px;
+  text-align: right;
+  color: #000;
+}
+
+.hero4__comment {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  //   line-height: 24px;
+  text-align: left;
+  color: #000;
+}
+
+.hero4__btn {
+  padding: 0 0;
+  border-radius: 8px;
+  width: 36px;
+  height: 34px;
+  background-color: rgba(220, 120, 11, 1);
+  color: #fff;
+  font-size: 20px;
+}

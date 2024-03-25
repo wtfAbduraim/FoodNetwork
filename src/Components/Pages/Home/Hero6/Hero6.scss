@@ -1,0 +1,61 @@
+.hero6__item {
+  max-width: 506px;
+  width: 100%;
+}
+
+.hero6__img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.hero4__text {
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  //   line-height: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.hero6__heading {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  color: #000;
+}
+
+.hero6__text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: center;
+  color: #000;
+}
+
+@media (min-width: 300px) {
+  .hero6 {
+    margin-top: 800px;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero6 {
+    margin-top: 700px;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero6 {
+    margin-top: 550px;
+  }
+}
+
+@media (min-width: 1060px) {
+  .hero6 {
+    margin-top: 200px;
+  }
+}

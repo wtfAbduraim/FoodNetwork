@@ -1,0 +1,123 @@
+.header {
+  margin-bottom: 120px;
+}
+
+.header-links-container {
+  width: 100px;
+  height: 400px;
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  transition: all 0.5s;
+
+  .header-links {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.header__btn {
+  max-width: 155px;
+  width: 100%;
+  height: 46px;
+  background-color: rgba(220, 120, 11, 1);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.nav__link {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  color: #000;
+
+  &:hover {
+    color: rgba(220, 120, 11, 1);
+  }
+
+  &:active {
+    color: rgba(220, 120, 11, 1);
+  }
+}
+
+.change {
+  opacity: 1;
+  width: 200px;
+}
+
+.hamburger {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  text-align: center;
+  z-index: 100;
+
+  &__icon {
+    position: relative;
+
+    &,
+    &::before,
+    &::after {
+      width: 1.7rem;
+      height: 4px;
+      background-color: #333;
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::before {
+      top: -0.8rem;
+    }
+    &::after {
+      top: 0.8rem;
+    }
+  }
+
+  &-active &__icon {
+    background-color: transparent;
+  }
+
+  &-active &__icon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  &-active &__icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+}

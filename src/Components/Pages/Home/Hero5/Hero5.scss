@@ -1,0 +1,88 @@
+.hero5 {
+  .container {
+    background-color: rgba(245, 222, 179, 0.164);
+    height: 418px;
+    border-radius: 12px;
+  }
+}
+
+.hero5__title {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  //   line-height: 24px;
+  letter-spacing: 0.2em;
+  //   text-align: left;
+  color: rgba(220, 120, 11, 1);
+}
+
+.hero5__heading {
+  font-family: "Philosopher";
+  font-size: 31.25px;
+  font-weight: 700;
+  //   line-height: 40.63px;
+  //   text-align: left;
+  color: #000;
+}
+.hero5__text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  //   line-height: 24px;
+  //   text-align: left;
+  color: #000;
+}
+
+.hero5__button {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 163px;
+  height: 48px;
+  background-color: #000;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero5__btn {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 163px;
+  height: 48px;
+  border: 0.5px solid rgba(128, 128, 128, 0.379);
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  color: #000;
+}
+
+.hero5__img {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media (min-width: 480px) {
+  .hero5__flex {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1060px) {
+  .hero5__info {
+    width: 555px;
+  }
+
+  .hero5__flex {
+    width: 400px;
+    margin: 0;
+  }
+}
